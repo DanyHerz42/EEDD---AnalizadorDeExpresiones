@@ -83,7 +83,7 @@ export default class Arbol{
     this._raiz = nodo;
   }
   inOrder(){
-    this._cadena = " ";
+    this._cadena = "";
     this.sacarInOrder(this._raiz);
     return this._cadena;
   }
