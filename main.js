@@ -1,5 +1,4 @@
 import Arbol from "./arbolBinario.js";
-import Cola from "./cola.js";
 class Main {
   constructor() {
     let arbol = new Arbol();
